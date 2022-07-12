@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const CurrencyConverter = () => {
 
-  const currencies = ["BTC","ETH","USD","XRP","LTC","ADA"]
+  const currencies = ["BTC","ETH","USD","XRP","LTC","ADA","INR"]
   const [chosenPrimaryCurrency, setChosenPrimaryCurrency] = useState('BTC');
   const [chosenSecondaryCurrency, setChosenSecondaryCurrency] = useState('BTC');
   const [amount, setAmount] = useState(1);
